@@ -38,7 +38,7 @@ eda_demand_prediction_BiciMad/
 
 ```bash
 git clone https://github.com/tu-usuario/eda_demand_prediction_BiciMad.git
-cd eda_bicis_madrid
+cd eda_demand_prediction_BiciMad
 ```
 
 ### 2. Instalar las dependencias
