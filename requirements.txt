@@ -1,0 +1,25 @@
+# Requisitos generales
+pandas>=1.3.0
+numpy>=1.21.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Visualización geográfica
+pydeck>=0.8.0
+
+# App interactiva
+streamlit>=1.3.0
+
+# Modelado y machine learning
+xgboost>=1.5.0
+scikit-learn>=1.0.0
+
+# Modelado estadístico
+statsmodels>=0.13.0
+
+# Entorno notebook
+jupyterlab>=3.0.0
+ipykernel>=6.0.0
+
+# Compatibilidad con fechas y tiempos
+python-dateutil>=2.8.0
