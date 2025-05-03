@@ -9,7 +9,7 @@ import pydeck as pdk
 st.set_page_config(page_title="EDA Bicis Madrid", layout="wide")
 st.title("📊 Análisis Exploratorio de Datos - Bicicletas Madrid")
 
-# Cargar datos
+# Cargo datos
 @st.cache_data
 def load_data():
     df = pd.read_csv('data_viajes.csv', parse_dates=['fecha', 'unlock_date'])
@@ -22,7 +22,7 @@ def load_data():
 
 df = load_data()
 
-# Derivar variables
+# Derivo variables
 df_daily = df.groupby('fecha').agg(
     trips_count=('idBike', 'count'),
     avg_trip_minutes=('trip_minutes', 'mean')
@@ -133,4 +133,4 @@ else:
 
 # ---------- Fin ----------
 st.markdown("---")
-st.caption("Desarrollado por Diego | Datos ficticios o reales de bicis en Madrid")
+st.caption("Desarrollado por Diego | Datos reales de bicis en Madrid")
