@@ -106,4 +106,4 @@ Desarrollado por **Diego Puerta Martín ** como parte de un proyecto de análisi
 ---
 
 ## 📜 Licencia
-Creative Commons
+GNU GENERAL PUBLIC LICENSE
