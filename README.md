@@ -11,9 +11,9 @@ Este proyecto realiza un análisis exploratorio de datos (EDA) y una comparació
 ```
 eda_demand_prediction_BiciMad/
 ├── app.py                  # Aplicación Streamlit para análisis exploratorio
-├── eda_modelos.ipynb       # Jupyter Notebook: comparación entre XGBoost y SARIMAX
+├── BiciMad.ipynb       # Jupyter Notebook: comparación entre XGBoost y SARIMAX
 ├── data/
-│   └── data_viajes.csv     # Datos de uso de bicicletas en Madrid del año 2022
+│   └── data.txt     # Enlace a datos de uso de bicicletas en Madrid del año 2022
 ├── requirements.txt        # Librerías necesarias
 └── README.md               # Este archivo
 ```
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 Guarda el archivo `data_viajes.csv` dentro de la carpeta `data/`.
 
-### 4. Ejecutar la aplicación de Streamlit
+### 4. Ejecutar la aplicación de Streamlit 
 
 ```bash
 streamlit run app.py
